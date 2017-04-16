@@ -1,7 +1,7 @@
 # test coverage for  [html-webpack-plugin (v2.28.0)](https://github.com/ampedandwired/html-webpack-plugin)  [![npm package](https://img.shields.io/npm/v/npmtest-html-webpack-plugin.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-html-webpack-plugin) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-html-webpack-plugin.svg)](https://travis-ci.org/npmtest/node-npmtest-html-webpack-plugin)
 #### Simplifies creation of HTML files to serve your webpack bundles
 
-[![NPM](https://nodei.co/npm/html-webpack-plugin.png?downloads=true)](https://www.npmjs.com/package/html-webpack-plugin)
+[![NPM](https://nodei.co/npm/html-webpack-plugin.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/html-webpack-plugin)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-html-webpack-plugin/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,11 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-html-webpack-plugin/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-html-webpack-plugin/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-html-webpack-plugin/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-html-webpack-plugin/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-html-webpack-plugin/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-html-webpack-plugin/build/coverage.html/index.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-html-webpack-plugin/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-html-webpack-plugin/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-html-webpack-plugin/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-html-webpack-plugin%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-html-webpack-plugin/build/test-report.html)
+[![test-report](https://npmtest.github.io/node-npmtest-html-webpack-plugin/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-html-webpack-plugin/build/test-report.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-html-webpack-plugin/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-html-webpack-plugin%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-html-webpack-plugin/build/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-html-webpack-plugin/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-html-webpack-plugin/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-html-webpack-plugin/build/screenCapture.npmPackageListing.svg)
 
@@ -28,7 +28,6 @@
 {
     "author": {
         "name": "Charles Blaxland",
-        "email": "charles.blaxland@gmail.com",
         "url": "https://github.com/ampedandwired"
     },
     "bugs": {
@@ -84,12 +83,10 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "ampedandwired",
-            "email": "charles.blaxland@gmail.com"
+            "name": "ampedandwired"
         },
         {
-            "name": "jantimon",
-            "email": "j.nicklas@me.com"
+            "name": "jantimon"
         }
     ],
     "name": "html-webpack-plugin",
@@ -97,7 +94,6 @@
     "peerDependencies": {
         "webpack": "1 || ^2 || ^2.1.0-beta || ^2.2.0-rc"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/ampedandwired/html-webpack-plugin.git"
