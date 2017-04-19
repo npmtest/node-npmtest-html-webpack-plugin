@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for [html-webpack-plugin (v2.28.0)](https://github.com/ampedandwired/html-webpack-plugin) [![npm package](https://img.shields.io/npm/v/npmtest-html-webpack-plugin.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-html-webpack-plugin) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-html-webpack-plugin.svg)](https://travis-ci.org/npmtest/node-npmtest-html-webpack-plugin)",
+    "description": "#### test coverage for  [html-webpack-plugin (v2.28.0)](https://github.com/ampedandwired/html-webpack-plugin)  [![npm package](https://img.shields.io/npm/v/npmtest-html-webpack-plugin.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-html-webpack-plugin) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-html-webpack-plugin.svg)](https://travis-ci.org/npmtest/node-npmtest-html-webpack-plugin)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "html-webpack-plugin": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.2"
+    "version": "0.0.3"
 }
