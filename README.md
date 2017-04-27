@@ -1,6 +1,6 @@
 # npmtest-html-webpack-plugin
 
-#### test coverage for  [html-webpack-plugin (v2.28.0)](https://github.com/ampedandwired/html-webpack-plugin)  [![npm package](https://img.shields.io/npm/v/npmtest-html-webpack-plugin.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-html-webpack-plugin) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-html-webpack-plugin.svg)](https://travis-ci.org/npmtest/node-npmtest-html-webpack-plugin)
+#### basic test coverage for  [html-webpack-plugin (v2.28.0)](https://github.com/ampedandwired/html-webpack-plugin)  [![npm package](https://img.shields.io/npm/v/npmtest-html-webpack-plugin.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-html-webpack-plugin) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-html-webpack-plugin.svg)](https://travis-ci.org/npmtest/node-npmtest-html-webpack-plugin)
 
 #### Simplifies creation of HTML files to serve your webpack bundles
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-html-webpack-plugin/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-html-webpack-plugin/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-html-webpack-plugin/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-html-webpack-plugin/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-html-webpack-plugin/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-html-webpack-plugin/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-html-webpack-plugin/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-html-webpack-plugin/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-html-webpack-plugin/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-html-webpack-plugin/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-html-webpack-plugin/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-html-webpack-plugin/build/coverage.html/index.html)
 
@@ -118,7 +118,8 @@
             "examples/*/dist/**/*.*"
         ]
     },
-    "version": "2.28.0"
+    "version": "2.28.0",
+    "bin": {}
 }
 ```
 
